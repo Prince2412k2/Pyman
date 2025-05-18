@@ -1,0 +1,22 @@
+INFO:src.core.config_handler:[create_conf] found config at /home/prince/.config/pyman/config.json
+INFO:src.core.config_handler:[create_conf] found config at /home/prince/.config/pyman/config.json
+INFO:src.core.config_handler:[create_conf] found config at /home/prince/.config/pyman/config.json
+INFO:src.core.conda:
+WARNING:src.core.conda:
+INFO:src.core.config_handler:[create_conf] found config at /home/prince/.config/pyman/config.json
+INFO:src.core.conda:
+INFO:src.core.conda:
+INFO:src.core.config_handler:[create_conf] found config at /home/prince/.config/pyman/config.json
+INFO:src.core.config_handler:[create_conf] found config at /home/prince/.config/pyman/config.json
+INFO:src.core.conda:
+INFO:src.core.conda:
+INFO:src.core.config_handler:[create_conf] found config at /home/prince/.config/pyman/config.json
+INFO:src.core.conda:/home/prince/miniconda3/envs
+INFO:src.core.conda:
+INFO:src.core.conda:
+INFO:src.core.config_handler:[create_conf] found config at /home/prince/.config/pyman/config.json
+INFO:src.core.conda:/home/prince/miniconda3/envs
+INFO:src.core.conda:main
+test
+
+INFO:src.core.conda:
