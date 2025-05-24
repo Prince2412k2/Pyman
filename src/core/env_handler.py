@@ -14,7 +14,6 @@ logger = logging.getLogger(__name__)
 
 def get_conda_envs(config: Config) -> List[Path]:
     path_to_envs = Path(config.conda_path) / "envs"
-    logger.info(path_to_envs)
     cmd = ["ls", str(path_to_envs)]
 
     result = subprocess.run(
@@ -25,7 +24,6 @@ def get_conda_envs(config: Config) -> List[Path]:
         check=True,
     )
 
-    logger.info(result.stdout)
     return [
         path_to_envs / i
         for i in result.stdout.strip().splitlines()
@@ -66,7 +64,7 @@ def set_packages(env: Env):
                 Package(name=i["name"], version=i["version"]) for i in packages
             ]
             return env
-        logger.info(f"No packages found for env:{env.path}")
+        logger.warning(f"No packages found for env:{env.path}")
 
     logger.warning(f"subprocess failed for env : {env.path}")
 

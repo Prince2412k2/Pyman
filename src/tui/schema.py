@@ -1,6 +1,7 @@
 from dataclasses import dataclass
 from abc import ABC, abstractmethod
 import curses
+from enum import Enum
 from pathlib import Path
 from src.core.schema import Env, Kind, Package
 
@@ -55,3 +56,14 @@ class Mapper:
             return self.package
         else:
             return self.other_envs
+
+
+class WindowTypes(Enum):
+    ENV = "ENV"
+    PACKAGE = "PACKAGE"
+    DATA = "DATA"
+
+
+@dataclass
+class State:
+    focus: WindowTypes = WindowTypes.ENV

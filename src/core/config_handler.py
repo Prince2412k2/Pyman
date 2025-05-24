@@ -35,7 +35,7 @@ def create_conf():
     """create config.json if not exist"""
     path = CONFIG_PATH
     if not path.exists():
-        logger.info(f"making config at {path}")
+        # logger.info(f"making config at {path}")
         path.parent.mkdir(parents=True, exist_ok=True)
         path = path / "config.json" if not path.name == "config.json" else path
         path.touch()
@@ -48,10 +48,9 @@ def create_conf():
         config = reload_conda_path(config)
         with open(path, "+w") as conf:
             conf.write(config.model_dump_json())
-        logger.info(f"[create_conf] Created config at {path}")
+        # logger.info(f"[create_conf] Created config at {path}")
         return config
-    else:
-        logger.info(f"[create_conf] found config at {path}")
+        # logger.info(f"[create_conf] found config at {path}")
 
 
 def load_conf() -> Optional[Config]:
