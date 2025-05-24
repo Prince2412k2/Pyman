@@ -167,3 +167,37 @@ test
 test
 
 2025-05-18 22:57:59,573 [MainProcess: 66998] [MainThread: 139341641262912] [INFO] src.core.env_handler: 
+2025-05-22 12:09:21,053 [MainProcess: 83276] [MainThread: 128352884094784] [INFO] src.tui.main: None
+2025-05-22 12:09:23,746 [MainProcess: 83276] [MainThread: 128352884094784] [INFO] src.tui.main: None
+2025-05-22 12:09:23,746 [MainProcess: 83276] [MainThread: 128352884094784] [INFO] src.tui.main: None
+2025-05-22 12:09:23,746 [MainProcess: 83276] [MainThread: 128352884094784] [INFO] src.tui.main: None
+2025-05-22 12:09:33,345 [MainProcess: 83278] [MainThread: 129079349495616] [INFO] src.tui.main: None
+2025-05-22 12:09:38,851 [MainProcess: 83278] [MainThread: 129079349495616] [INFO] src.tui.main: None
+2025-05-22 12:09:38,852 [MainProcess: 83278] [MainThread: 129079349495616] [INFO] src.tui.main: None
+2025-05-22 12:09:38,852 [MainProcess: 83278] [MainThread: 129079349495616] [INFO] src.tui.main: None
+2025-05-22 12:09:41,646 [MainProcess: 83278] [MainThread: 129079349495616] [INFO] src.tui.main: None
+2025-05-22 12:09:41,647 [MainProcess: 83278] [MainThread: 129079349495616] [INFO] src.tui.main: None
+2025-05-22 12:09:41,647 [MainProcess: 83278] [MainThread: 129079349495616] [INFO] src.tui.main: None
+2025-05-22 12:09:41,960 [MainProcess: 83278] [MainThread: 129079349495616] [INFO] src.tui.main: None
+2025-05-22 12:09:41,960 [MainProcess: 83278] [MainThread: 129079349495616] [INFO] src.tui.main: None
+2025-05-22 12:09:41,960 [MainProcess: 83278] [MainThread: 129079349495616] [INFO] src.tui.main: None
+2025-05-22 12:09:42,280 [MainProcess: 83278] [MainThread: 129079349495616] [INFO] src.tui.main: None
+2025-05-22 12:09:42,280 [MainProcess: 83278] [MainThread: 129079349495616] [INFO] src.tui.main: None
+2025-05-22 12:09:42,280 [MainProcess: 83278] [MainThread: 129079349495616] [INFO] src.tui.main: None
+2025-05-22 12:09:42,875 [MainProcess: 83278] [MainThread: 129079349495616] [INFO] src.tui.main: None
+2025-05-22 12:09:42,875 [MainProcess: 83278] [MainThread: 129079349495616] [INFO] src.tui.main: None
+2025-05-22 12:09:42,876 [MainProcess: 83278] [MainThread: 129079349495616] [INFO] src.tui.main: None
+2025-05-22 12:09:43,161 [MainProcess: 83278] [MainThread: 129079349495616] [INFO] src.tui.main: None
+2025-05-22 12:09:43,162 [MainProcess: 83278] [MainThread: 129079349495616] [INFO] src.tui.main: None
+2025-05-22 12:09:43,162 [MainProcess: 83278] [MainThread: 129079349495616] [INFO] src.tui.main: None
+2025-05-22 12:09:43,454 [MainProcess: 83278] [MainThread: 129079349495616] [INFO] src.tui.main: None
+2025-05-22 12:09:43,455 [MainProcess: 83278] [MainThread: 129079349495616] [INFO] src.tui.main: None
+2025-05-22 12:09:43,455 [MainProcess: 83278] [MainThread: 129079349495616] [INFO] src.tui.main: None
+2025-05-22 12:09:44,264 [MainProcess: 83278] [MainThread: 129079349495616] [INFO] src.tui.main: None
+2025-05-22 12:09:50,446 [MainProcess: 83282] [MainThread: 129349760653120] [INFO] src.tui.main: None
+2025-05-22 12:09:50,758 [MainProcess: 83282] [MainThread: 129349760653120] [INFO] src.tui.main: None
+2025-05-22 12:09:50,758 [MainProcess: 83282] [MainThread: 129349760653120] [INFO] src.tui.main: None
+2025-05-22 12:09:50,758 [MainProcess: 83282] [MainThread: 129349760653120] [INFO] src.tui.main: None
+2025-05-22 12:09:51,001 [MainProcess: 83282] [MainThread: 129349760653120] [INFO] src.tui.main: None
+2025-05-22 12:09:51,002 [MainProcess: 83282] [MainThread: 129349760653120] [INFO] src.tui.main: None
+2025-05-22 12:09:51,002 [MainProcess: 83282] [MainThread: 129349760653120] [INFO] src.tui.main: None

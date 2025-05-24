@@ -26,7 +26,6 @@ def get_conda_envs(config: Config) -> List[Path]:
     )
 
     logger.info(result.stdout)
-    logger.info(result.stderr)
     return [
         path_to_envs / i
         for i in result.stdout.strip().splitlines()
@@ -34,7 +33,12 @@ def get_conda_envs(config: Config) -> List[Path]:
     ]
 
 
-def get_packages(env: Env):
+def dependency_tree(env: Env) -> Optional[str]:
+    """uv pip list -p ~/projects/pyman/.venv/bin/python --preview"""
+    pass
+
+
+def set_packages(env: Env):
     """uv pip list --verbose --directory ./pyman --format=json"""
     # venv_cmd = [
     #     "uv",
@@ -67,9 +71,9 @@ def get_packages(env: Env):
     logger.warning(f"subprocess failed for env : {env.path}")
 
 
-def get_packages_for_all(envs: Envs):
+def set_packages_for_all(envs: Envs):
     for i in envs.get_all():
-        env = get_packages(i)
+        env = set_packages(i)
         if env:
             print(env.path)
             print(env.packages)

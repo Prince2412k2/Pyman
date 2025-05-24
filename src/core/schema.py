@@ -8,15 +8,20 @@ class Kind(Enum):
     CONDA = "CONDA"
     VENV = "VENV"
     CUSTOM = "CUSTOM"
+    PACKAGE = "PACKAGE"
 
 
 class Package:
     def __init__(self, name, version) -> None:
         self.name: str = name
         self.version: str = version
+        self.kind: Kind = Kind.PACKAGE
 
     def __repr__(self) -> str:
         return f"{self.name} : {self.version}\n"
+
+    def get_name(self):
+        return f"{self.name}={self.version}"
 
 
 class Env:
@@ -27,6 +32,13 @@ class Env:
 
     def __repr__(self) -> str:
         return f"{self.path}:{self.kind}\n"
+
+    def get_name(self):
+        return (
+            str(self.path.name)
+            if self.kind == Kind.CONDA
+            else str(self.path.parent.name)
+        )
 
 
 class Envs:
