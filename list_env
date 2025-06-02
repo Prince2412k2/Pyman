@@ -1,0 +1,5 @@
+#!/home/prince/projects/pyman/.venv/bin/python3
+
+from src.core.activator import return_list
+
+print(return_list())

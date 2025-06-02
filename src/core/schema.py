@@ -63,5 +63,5 @@ class Envs:
 
 class Config(BaseModel):
     conda_path: str
-    custom_venvs: list[str]
+    custom_venvs: list[Optional[str]] = [None]
     dirs_to_find: List[str] = [".venv", ".env"]
