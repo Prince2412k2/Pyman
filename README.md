@@ -1,3 +1,5 @@
+# NOTE -> This Project is Still in work
+
 # Pyman
 A tui tool to track all your python environments.
 finds all .env and .venv in path given in config.
